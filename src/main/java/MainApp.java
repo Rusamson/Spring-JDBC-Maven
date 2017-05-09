@@ -31,7 +31,7 @@ public class MainApp {
       }
 
       System.out.println("----Updating Record with ID = 2 -----" );
-      movieJDBCTemplate.update(2, 20);
+      movieJDBCTemplate.update(2, 2014);
 
       System.out.println("----Listing Record with ID = 2 -----" );
       Movie movie = movieJDBCTemplate.getMovie(2);
